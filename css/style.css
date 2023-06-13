@@ -11,20 +11,24 @@ html {
 body {
     background-color: #171718;
     color: #FBFBFB;
+    margin: 0;
+    padding: 0;
 }
 
 
 /* Typography */ 
-h1 {
 
+h1 {
+  font-size: 13vw;
 }
 
 h2 {
-
+  font-size: 5vw;
 }
 
 h3 {
-
+  font-size: 2.8vw;
+  color: #ede8e8;
 }
 
 h4 {
@@ -40,35 +44,113 @@ p {
 }
 
 a {
-    color: #FBFBFB;
+   
+}
+
+/* Logo */
+#Logo{
+  position: fixed;
+  top: 20px;
+  left: 40px;
+  font-size: 30px;
 }
 
 /* Nav */
 #nav{
-    position: fixed;
-    top: 10px;
-    right: 0px;
-    margin: 0;
-    padding: 0;
+  position: fixed;
+  top: 20px;
+  right: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 #nav li {
-    display: inline-block;
-    font-size: 24px;
-    margin-right: 40px;
+  display: inline-block;
+  font-size: 24px;
+  margin-right: 20px;
+  opacity: .8;
 }
 
 #nav li:hover {
-    transform-origin: 100% 100% 0;
-    color: #7aefe3;
-    transform: scale(1.1);
-    border-bottom: 3px dashed #42f4e2;
-    margin-right: 60px;
-    transition-duration: 1000ms;
-    cursor: pointer;
+  cursor: pointer;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+#nav a{
+  color: #FBFBFB;
 }
 
 /* Page Layout */
 .section{
     min-height: 100vh;
+}
+
+/* Hero Section */
+
+.imageBG{
+  opacity: .5;
+  object-fit: cover;
+  z-index: 1;
+}
+
+#TitleIMG{
+  background-image: url("../images/BeanieProfile.JPG");
+  background-attachment: fixed;
+  background-color: #8f8e8e;
+  background-blend-mode: multiply;
+  background-position-x: center;
+  background-position-y: -1200px;
+  background-size: 2000px;
+  background-size: fixed;
+}
+
+#TitleTXT{
+  margin-top: 100px;
+}
+
+.caseStudy{
+  height: 200px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.imagetest{
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  opacity: .5;
+  
+}
+
+.imagetest:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+#bio{
+  background-image: url("../images/Sitting.jpg");
+  background-attachment: fixed;
+  background-color: #8f8e8e;
+  background-blend-mode: multiply;
+  background-position-x: 500px;
+  background-position-y: -1000px;
+  background-size: 2000px;
+  background-size: fixed;
+}
+
+.right-align{
+  margin-right: 20px;
+}
+
+.bioBodyLeft{
+  margin-top: 40px;
+  margin-left: 40px;
+  max-width: 900px;
+}
+
+.bioBodyRight{
+  margin-top: 40px;
+  margin-right: 40px;
+  max-width: 900px;
 }
