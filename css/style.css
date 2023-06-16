@@ -180,3 +180,16 @@ a {
   background-size: 2000px;
   background-size: fixed;
 }
+
+.imgRoundedCorners{
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 353px;
+  height: 258px;
+  border-radius: 50px;
+}
+
+#pageHeader{
+  margin-top: 200px;;
+}
