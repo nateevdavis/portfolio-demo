@@ -154,15 +154,14 @@ a {
 }
 
 .left-align{
-  margin-left: 40px;
-  margin-bottom: 50px;
+  margin-left: 0px;
   margin-right: 100px;
 }
 
 .bioBodyLeft{
   margin-top: 40px;
-  margin-left: 40px;
-  max-width: 600px;
+  margin-left: 0px;
+  max-width: 800px;
   margin-right: 40px
 }
 
@@ -192,4 +191,8 @@ a {
 
 #pageHeader{
   margin-top: 200px;;
+}
+
+#caseStudyImg{
+
 }
